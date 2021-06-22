@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body
+{
+    background-image: linear-gradient(rgba(1,2,1,0.1),rgba(1,2,1,0.1)),url(./Purpink.jpg);
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.login form input
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login
+{
+    font-family: 'Montserrat', sans-serif;
+   position: absolute;
+   top: 200px;
+   right: 600px;
+   text-shadow: black;
+   font-weight: 300;
+}
+
+.login input:hover
+{
+    font-size: 300;
+    color: red;
+    background-color:rgb(236, 228, 228);
+    transition: scale(2);
+}
+
